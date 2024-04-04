@@ -1,0 +1,234 @@
+#loginContainer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(246, 247, 248);
+ width: 100vw;
+ height: 100vh;
+ padding: 60px 100px;
+ /* border: 2px solid red; */
+}
+
+#loginContainer1 {
+ width: 50%;
+ /* border: 2px solid green; */
+}
+
+#facebook {
+ color: #1877F2;
+ font-size: 70px;
+}
+
+#facebookText {
+ font-weight: lighter;
+ font-size: xx-large;
+}
+
+#loginContainer2 {
+ /* border: 2px solid red; */
+ width: 50%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+}
+
+#loginContainer2top {
+ box-shadow: 0 0 5px;
+ padding: 15px;
+ background-color: whitesmoke;
+ width: 70%;
+ height: 70%;
+ /* border: 2px solid blue; */
+ border-radius: 10px;
+ height: 80%;
+}
+
+#btn1 {
+ width: 100%;
+ height: 50px;
+ background-color: #1877F2;
+ color: whitesmoke;
+ font-size: x-large;
+ font-weight: bold;
+ border-radius: 10px;
+ padding: 5px;
+ cursor: pointer;
+}
+
+#btn2 {
+ width: 100%;
+ height: 50px;
+ font-size: larger;
+ background-color: whitesmoke;
+ border: none;
+ color: #1877F2;
+ margin: 10px 0;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#btn2:hover {
+ text-decoration: underline;
+}
+
+hr {
+ margin: 15px 0;
+ width: 100%;
+}
+
+#loginContainer2bottom {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#btn3 {
+ width: 60%;
+ height: 50px;
+ cursor: pointer;
+ background-color: rgb(2, 168, 2);
+ border-radius: 10px;
+ color: white;
+ font-weight: bolder;
+ padding: 5px;
+ margin-top: 20px;
+ font-size: large;
+}
+
+#displayForm {
+ position: absolute;
+ top: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ height: 100vh;
+ background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+ backdrop-filter: blur(1px);
+}
+
+#displayFormInner {
+ box-shadow: 0 0 10px;
+ padding: 10px;
+ width: 29%;
+ border-radius: 10px;
+ background-color: whitesmoke;
+}
+
+button {
+ cursor: pointer;
+ border: none;
+}
+
+span {
+ font-weight: bolder;
+ font-size: medium;
+}
+
+#loginContainerLast {
+ margin-top: 20px;
+}
+
+#displayFormInner1 {
+ display: flex;
+ justify-content: space-between;
+}
+
+#cancelBtn {
+ height: 50%;
+}
+
+#cancelBtn i {
+ font-size: x-large;
+}
+
+#displayFormInner2 {
+ display: flex;
+ gap: 20px;
+}
+
+#displayFormInner2 Input {
+ height: 40px;
+ border-radius: 5px;
+}
+
+.displayFormInput Input {
+ height: 40px;
+ border-radius: 5px;
+}
+
+#displayFormInner3 {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.selectDOB {
+ display: flex;
+ align-items: center;
+ width: 30%;
+ height: 40px;
+}
+
+.selectDOB select {
+ width: 100%;
+ height: 100%;
+ border-radius: 5px;
+ padding: 0 5px;
+}
+
+#displayFormInner4 {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.genderRadio {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 30%;
+ border: 1px solid #CBC4C4;
+ height: 40px;
+ border-radius: 5px;
+ padding: 0 10px;
+}
+
+.pTag {
+ font-size: small;
+ margin: 5px 0;
+}
+
+.pTagBottom {
+ font-size: x-small;
+ margin: 5px 0;
+}
+
+#btn4Div {
+ text-align: center;
+}
+
+#btn4 {
+ width: 60%;
+ height: 50px;
+ cursor: pointer;
+ background-color: rgb(2, 168, 2);
+ border-radius: 10px;
+ color: white;
+ font-weight: bolder;
+ font-size: large;
+ padding: 5px;
+ margin: 30px 0 10px 0;
+}
+
+.pSpan {
+ font-size: x-small;
+ color: #1877F2;
+}

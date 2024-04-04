@@ -1,0 +1,10 @@
+#links {
+ text-decoration: none;
+ color: blue;
+ padding: 5px;
+}
+
+#links:hover {
+ color: black;
+ border-radius: 5px;
+}
